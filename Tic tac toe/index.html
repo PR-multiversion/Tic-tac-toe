@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-cont">
+        <div class="score-cont">
+            <div class="player">
+                <div><span class="txt txt-p">P</span></div>
+                <div class="two"><span class="txt">Score</span><span class=" s-txt p-txt">0</span></div>
+                <div class="line1"></div>
+            </div>
+            <div class="opponent">
+                <div><span class="txt txt-p">O</span></div>
+                <div class="two"><span class="txt">Score</span><span class="s-txt o-txt">0</span></div>
+                <div class="line2"></div>
+            </div>
+        </div>
+        <div class="show-cont">
+            <div class="show">
+                <span id="winner"></span><br>
+                <span class="ask">Do you want to continue?</span>
+                <div class="show-btn">
+                    <button class="continue" onclick="next()">Continue</button>
+                    <button class="restart" onclick="restart()">Restart</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <button class="btn" id="00" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="01" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="02" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="10" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="11" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="12" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="20" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="21" type="button" onclick="assign(this.id)"></button>
+            <button class="btn" id="22" type="button" onclick="assign(this.id)"></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
