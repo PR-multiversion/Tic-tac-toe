@@ -118,11 +118,6 @@ body
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
 }
-.score-cont .txt-p
-{
-    font-size: 25px;
-    color: rgb(226, 95, 7);
-}
 .player .two
 {
     display: flex;
@@ -159,6 +154,11 @@ body
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
+}
+.score-cont .txt-p
+{
+    font-size: 25px;
+    color: rgb(226, 95, 7);
 }
 .score-cont .line1,.line2
 {
