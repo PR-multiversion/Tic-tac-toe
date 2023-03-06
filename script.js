@@ -258,7 +258,7 @@ function search2()
         ocount +=1;
         document.querySelector('.o-txt').innerHTML = ocount;
     }
-    else if(array[0][2] == 2 && array[1][2] == 1 && array[2][2] == 2)
+    else if(array[0][2] == 2 && array[1][2] == 2 && array[2][2] == 2)
     {
         console.log("opponent win");
         result = "Opponent win";
